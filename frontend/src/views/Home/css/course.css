@@ -1,0 +1,72 @@
+.uploaded{
+    text-align: center;
+    align-items: center;
+    font-size: 25px;
+}
+  /* Style for the title */
+  .uploaded h4 {
+    padding-top: 10px;
+    font-size: 5rem;
+    margin-bottom: 10px;
+  }
+  .output-div{
+    display: flex;
+  }
+  /* Style for the inner container */
+  .inner-div {
+    padding-left: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Style for the title inside inner container */
+  .inner-div h6 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the download button */
+  .inner-div .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .inner-div .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+/* course.css */
+
+/* Add styles for the outer container to create a grid layout */
+.output-div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Each row contains 4 columns */
+  gap: 20px; /* Adjust as needed for spacing between items */
+  text-align: center;
+}
+
+/* Add styles for each course item */
+.inner-div {
+  text-align: center;
+}
+
+/* Add responsive styles to adjust layout for smaller screens */
+@media screen and (max-width: 768px) {
+  .output-div {
+      grid-template-columns: repeat(2, 1fr); /* 2 columns for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .output-div {
+      grid-template-columns: 1fr; /* 1 column for even smaller screens */
+  }
+}
+.imgcourse{
+  width: 300px;
+  height: 300px;
+}

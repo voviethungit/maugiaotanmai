@@ -1,0 +1,149 @@
+/* Css dùng chung cho tất cả trang home */
+/* @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500&family=Poppins:wght@300&display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* overflow: hidden; */
+  }
+  
+  :root {
+    --white-color: #ffffff;
+    --main-color: #f6f6f6;
+    --button-color: #5fcf86;
+    --text-color: #000000;
+    --sale-color: #f26a2b;
+    --star-color: #ffc634;
+    --autonumber-color: #eef7ff;
+    --location-car-color: #fce0d3;
+    --bietthemvemioto-color: #effaf3;
+    --banmuonchothuexe-color: #eef7ff;
+    --dangkythuexebutton-color: #5cb3ff;
+    --navunderlined-color: #e0e0e0;
+    --button__small-color: rgba(255, 208, 205, 1);
+  }
+  
+  html {
+    /* font mặc định 62.5 = 10px */
+    font-size: 62.5%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Manrope', sans-serif;
+    /* tạo khoảng cách cho các thẻ con */
+    padding: 20px 0;
+    background-color: var(--white-color);
+    /* font-weight: 500; */
+  }
+  
+  /* nút đặt xe nhanh  */
+  .btn__electronic {
+    width: 100px;
+    height: 25px;
+    background-color: rgba(108, 109, 109, 0.8);
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  
+  .btn__auto {
+    width: 75px;
+    height: 25px;
+    background-color: var(--autonumber-color);
+    border-radius: 10px;
+    text-align: center;
+    line-height: 25px;
+  }
+  
+  .btn__large {
+    width: 220px;
+    height: 56px;
+    line-height: 56px;
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .btn__large:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  }
+  .btn__small {
+    background-color: var(--button__small-color);
+    width: 100px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+    line-height: 25px;
+  }
+  .deleteaccount-content{
+    margin-bottom: 50px;
+}
+.confirm-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 10%;
+
+  }
+
+  .success-modal-deleteaccount{
+    padding: 20px;
+    background-color: #70c78f;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 200px;
+    min-width: 350px;
+    text-align: center;
+    gap: 20px;
+    font-weight: 700;
+    border-radius: 10px;
+  }
+
+  .button-xacnhanxoa{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  .button-xacnhanxoa button{
+    padding: 12px;
+    cursor: pointer;
+  }
+  .deletecancel-btn{
+    background-color: red;
+    border: 1px red solid;
+    font-weight: 700;
+    color: #fff;
+  }
+
+  .deleteaccount-btnn p{
+    font-size: 2rem;
+    padding: 12px 20px;
+    border: 1px solid red;
+    background: red;
+    border-radius: 8px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+  }
+
+  .deleteaccount-btnn p:hover{
+    box-shadow: 0px 2px 4px -1px 
+            rgba(0,0,0,0.2), 0px 4px 5px 0px 
+            rgba(0,0,0,0.14), 0px 1px 10px 0px 
+            rgba(0,0,0,0.12);
+  }
+
+  .success-modal-deleteaccount button{
+    padding: 12px;
+    font-size: 2rem;
+  }

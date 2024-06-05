@@ -1,0 +1,47 @@
+.blog-content{
+    padding-top: 80px;
+    align-items: center;
+}
+h1{
+    text-align: center;
+}
+img{
+    width: 333px;
+    height: 333px;
+}
+.blog-content {
+    background-color: #f9f9f9; /* Background color of the box */
+    border: 1px solid #000000; /* Border around the box */
+    border-radius: 5px; /* Rounded corners for the box */
+ 
+    margin: 20px 0; /* Margin around the box */
+    max-width: 800px; /* Limit maximum width of the box */
+    margin: auto; /* Center the box horizontally */
+  }
+  
+  /* Additional styling for the heading */
+  .blog-content h1 {
+    color: #333; /* Color of the heading */
+    font-size: 24px; /* Font size of the heading */
+    margin-bottom: 20px; /* Bottom margin for the heading */
+  }
+  
+  /* Additional styling for the image */
+  .blog-content img {
+    max-width: 100%; /* Ensure images fit within the box */
+    height: auto; /* Preserve aspect ratio of images */
+    margin-bottom: 20px; /* Bottom margin for the image */
+  }
+  
+  /* Additional styling for the content paragraphs */
+  .blog-content .content {
+    color: #666; 
+    font-size: 16px;
+    line-height: 1.6; 
+  }
+  .hrblog{
+    border: 1px solid black;
+    background-color: black;
+    height: 1px;
+    width: 100%;
+  }

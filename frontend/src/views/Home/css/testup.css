@@ -1,0 +1,53 @@
+/* UploadBlog.css */
+
+.upload-blog-container {
+    width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  .editor-wrapper {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .editor-content {
+    height: 300px;
+    padding: 10px;
+    overflow-y: auto;
+  }
+  
+  .editor-toolbar {
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 5px 5px 0 0;
+    background-color: #f9f9f9;
+    padding: 5px;
+  }
+  
+  .submit-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-btn:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  .css-14s5rfu-MuiFormLabel-root-MuiInputLabel-root{
+    font-weight: 700 !important;
+  }

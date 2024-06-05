@@ -1,0 +1,35 @@
+.menu {
+    position: fixed;
+    top: 76px;
+    left: 0;
+    width: 225px;
+    color: white;
+    height: 700px;
+    background-color: #333333;
+  }
+.fontmenu{
+  font-size: 15px;
+  font-weight: bold;
+}
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+  }
+  .menuliadmin{
+    color: white;
+    font-size: 17px;
+  }
+  .css-tlelie-MuiListItemText-root{
+    font-size: 13px;
+    font-weight: 600;
+  }
